@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(255, 228, 196, 0.71);
+}
+
+.main {
+    text-align: center;
+}
+
+.label {
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.operation button{
+    display: inline-block;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 60px;
+    color:whitesmoke;
+    padding: 10px;
+    background: radial-gradient(rgb(179, 62, 26), rgb(130, 41, 14));
+    border:  rgb(130, 41, 14);
+    cursor: pointer;
+}
+
+.operation button:hover {
+    transform: translate(0, 0.25em);
+    background: radial-gradient(rgb(230, 148, 123), rgb(185, 71, 37));
+    border:  rgb(185, 71, 37);
+    color: rgb(66, 21, 7);
+}
+
+.operation button:active {
+    background: radial-gradient(rgb(110, 40, 18), rgb(86, 26, 8));
+    border:  rgb(86, 26, 8);
+    color: rgb(66, 21, 7);
+}
+
+#res {
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 5vw;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5vw;
+    color: rgb(167, 21, 21);
+    background-color: rgb(224, 138, 77);
+    text-shadow: 2px 2px 1px #333, -1px -1px 0 rgb(231, 122, 122);
+    
+}
+
+#crazy-capy {
+    margin-left: 0;
+    margin-top: 0;
+    float: left;
+}
+
+#eating-capy {
+    margin-right: 0;
+    margin-top: 0;
+    float: right;
+}
+
+

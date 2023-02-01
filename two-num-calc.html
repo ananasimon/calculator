@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./two-num-calc.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Calculator</h1>
+        <br><br><br>
+        <img src="./crazy_capy.png" alt="Capy" id="crazy-capy" width="300">
+        <img src="./eating_capy.png" alt="Capy" id="eating-capy" width="300">
+
+    <label for="first-namber" class="label">ENTER THE FIRST NUMBER: </label>
+    <br>
+    <input type="number" oninput="onInput()" id="n1" placeholder="number 1">
+    <br> <br> 
+    <label for="second-number" class="label">ENTER THE SECOND NUMBER: </label>
+    <br>
+    <input type="number" oninput="onInput()" id="n2" placeholder="number 2">
+    <br><br><br>
+    <div class="operation">
+        <button id="plus" onclick="calc('+');">+</button>
+        <button id="minus" onclick="calc('-');">-</button>
+        <button id="multiply" onclick="calc('*');">&times;</button>
+        <button id ="divide" onclick="calc(':')">:</button>
+        <button id="divide-integer" onclick="calc('%')">%</button>
+        <button id="power" onclick="calc('^')">^</button>
+         </div>
+    <br><br>
+    <br><br>
+    <h2 id="res"></h2>
+    </div>
+    
+    <script src="./two-num-calc.js"></script>
+    
+</body>
+</html>
